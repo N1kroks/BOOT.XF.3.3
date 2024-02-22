@@ -10,8 +10,8 @@
                                                                      ] 
                                                         } ,
                                              "Linux" : {
-                                                          "Path" :  "/pkg/qct/software/llvm/release/arm/4.0.2/bin/" ,  # put in the search path use os.pathsep in python to concat
-                                                          "Tool_path" : "/pkg/qct/software/llvm/release/arm/4.0.2/tools/bin/" ,
+                                                          "Path" :  "/home/nikroks/boot_images/clang2/bin/" ,  # put in the search path use os.pathsep in python to concat
+                                                          "Tool_path" : "//home/nikroks/boot_images/clang2/tools/bin/" ,
                                                           "Params" : [# append to the build command
                                                                        "-t" , "CLANG40LINUX"
                                                                      ]
@@ -27,8 +27,8 @@
                                                                      ] 
                                                         } ,
                                              "Linux" : {
-                                                          "Path" :  "/pkg/qct/software/llvm/release/arm/8.0.8/bin/" ,  # put in the search path use os.pathsep in python to concat
-                                                          "Tool_path" : "/pkg/qct/software/llvm/release/arm/8.0.8/tools/bin/" ,
+                                                          "Path" :  "/home/nikroks/boot_images/clang/bin/" ,  # put in the search path use os.pathsep in python to concat
+                                                          "Tool_path" : "/home/nikroks/boot_images/clang/tools/bin/" ,
                                                           "Params" : [# append to the build command
                                                                        "-t" , "CLANG80LINUX"
                                                                      ]
@@ -66,7 +66,7 @@
                                         "Path" : "C:\\Apps\\LLVM\\4.0.2\\tools\\bin\\arm-elfcopy.exe"
                                       },
                            "Linux" : {
-                                        "Path" : "/pkg/qct/software/llvm/release/arm/4.0.2/tools/bin/arm-elfcopy"
+                                        "Path" : "/home/nikroks/boot_images/clang/tools/bin/arm-elfcopy"
                                      }
                                },
                 "buildex" :{
